@@ -87,7 +87,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-    padding: 15px 0;
+    padding: 15px 0px;
     background: crimson;
 }
 .navbar .max-width{
@@ -102,7 +102,7 @@ section .title::after{
 }
 .navbar .logo a span{
     color: crimson;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
 }
 .navbar.sticky .logo a span{
     color: #fff;
@@ -211,6 +211,12 @@ section .title::after{
 .home .home-content a:hover{
     color: crimson;
     background: none;
+    box-shadow:greenyellow 20px 20px 20px;
+    transition: 1s;
+}
+.home .home-content a:active{
+    box-shadow: greenyellow 5px 5px 5px;
+    transform: translate(-10px -10px );
 }
 
 /* about section styling */
